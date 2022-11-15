@@ -4,6 +4,10 @@ const rnd1 = new OneTimeRnd();
 
 console.log(rnd1.next());
 
+rnd1.onEnd(function () {
+  console.log("Done !");
+});
+
 for (let i = 0; i < 100; ++i) {
   rnd1.next();
 }
@@ -12,7 +16,7 @@ console.log(rnd1.next() === undefined);
 
 const rnd2 = new OneTimeRnd({ from: 5, to: 10 });
 
-for (let i = 0; i < 6; ++i) {
+for (let i = 0; i < 7; ++i) {
   console.log(rnd2.next());
 }
 
