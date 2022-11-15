@@ -11,7 +11,7 @@ $ npm i onetime-rnd
 or
 
 ```html
-<script src="https://unpkg.com/onetime-rnd@1.0.0/dist/index.js"></script>
+<script src="https://unpkg.com/onetime-rnd@1.0.2/dist/index.js"></script>
 ```
 
 ## Example
