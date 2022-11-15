@@ -19,7 +19,7 @@ or
 By default if you don't pass any arguments it will generate number between 0 and 100 inclusive.
 
 ```js
-const OneTimeRnd = require("../dist/index");
+const OneTimeRnd = require("onetime-rnd");
 
 const rnd = new OneTimeRnd({ from: 1, to: 3 });
 
